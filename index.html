@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="bg-[#D7F5DC]">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="Frame 8.png" class="" alt="Flowbite Logo" />
+      </a>
+      <button data-collapse-toggle="navbar-dropdown" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden  focus:outline-none focus:ring-2  "
+        aria-controls="navbar-dropdown" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <ul
+          class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 items-center">
+          <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+              class="flex items-center justify-between w-full py-2 px-3  rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 md:dark:hover:bg-transparent">Service
+              <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="m1 1 4 4 4-4" />
+              </svg></button>
+            <!-- Dropdown menu -->
+            <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white">
+              <ul class="py-2 text-sm" aria-labelledby="dropdownLargeButton">
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-300">Dashboard</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-300">Settings</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-300">Earnings</a>
+                </li>
+              </ul>
+              <div class="py-1">
+                <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-300">Sign out</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500  dark:hover:text-white md:dark:hover:bg-transparent">About
+              Us</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 px-3  rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500  md:dark:hover:bg-transparent">Contact
+              Us</a>
+          </li>
+          <li class="py-2 px-3">
+            <button class=" py-3 px-5 rounded-xl bg-[#20B15A] text-white ">Login</button>
+          </li>
+          </li>
+          <li class="py-2 px-3">
+            <button class=" py-3 px-5 rounded-xl bg-[#20B15A] text-white ">Register</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="home-section  ">
+    <div class="justify-center bg-[#D7F5DC] border pb-5">
+      <div class=" px-16 grid-rows-2 gap-4 lg:flex justify-between items-center animate-fade-in-right ">
+        <div class="mt-56">
+          <h1 class="text-4xl font-bold leading-snug">Increase Your <br> Customers Loyalty <br> and Satisfaction</h1>
+          <p class="leading-8">We help businesses like yours earn more customers, <br> standout from competitors, make
+            more money</p>
+          <button class=" border-[#20B15A] rounded-xl px-5 py-3  bg-[#20B15A] text-white my-10">Get Started</button>
+        </div>
+        <div class=""><img src="Group 38 (1).png" alt=""></div>
+      </div>
+      <marquee behavior="" direction="" class="bg-[#F8FFF9] w-full">
+
+        <div class="flex gap-16 justify-center py-10 ">
+          <img src="logos_google.png" alt="">
+          <img src="Trello-logo-blue 1.png" alt="">
+          <img src="logos_monday.png" alt="">
+          <img src="Notion.png" alt="#">
+          <img src="Slack.png" alt="#">
+        </div>
+      </marquee>
+
+    </div>
+  </section>
+  <section class="what-we-do-section">
+    <div class="px-16">
+      <p class="text-[#20B15A] text-lg mt-16 ">What we do</p>
+      <h2 class="text-xl font-bold mt-5">We provide the Perfect Solution <br> to your business growth</h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 px-16 mt-10">
+      <div class=" rounded-2xl hover:shadow-lg p-5">
+        <div class="justify-center  ">
+          <img src="Activity.png" alt="" class="imq">
+          <h2 class="font-bold h-10 mt-5">Grow Your Business</h2>
+          <p>We help identify the best ways to <br> improve your business</p>
+          <button class=" mt-10 hover:underline py-3 px-5 rounded-md hover:bg-[#F55F1D] hover:text-white">Learn More <i
+              class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="rounded-2xl hover:shadow-lg p-5">
+        <div class="justify-center  ">
+          <img src="Heart.png" alt="">
+          <h2 class="font-bold h-10 mt-5">Grow Your Business</h2>
+          <p>We help identify the best ways to <br> improve your business</p>
+          <button class=" mt-10 hover:underline py-3 px-5 rounded-md hover:bg-[#F55F1D] hover:text-white">Learn More <i
+              class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="rounded-2xl hover:shadow-lg p-5">
+        <div class="justify-center  ">
+          <img src="Work.png" alt="">
+          <h2 class="font-bold h-10 mt-5">Grow Your Business</h2>
+          <p>We help identify the best ways to <br> improve your business</p>
+          <button class=" mt-10 hover:underline py-3 px-5 rounded-md hover:bg-[#F55F1D] hover:text-white">Learn More <i
+              class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="project-completed-section">
+    <div class="grid md:grid-cols-[20%_20%_20%_20%] px-16 mt-40 text-center justify-center">
+      <div class="grid-cols-4 mt-10 rounded-2xl p-5 hover:shadow-lg">
+        <div class=" w-full flex justify-center">
+          <img src="project-plan.png" alt="">
+        </div>
+        <p>Completed Projects</p>
+        <h2 class="text-[#20B15A] text-5xl font-bold">100 +</h2>
+      </div>
+      <div class="grid-cols-4 mt-10 rounded-2xl p-5 hover:shadow-lg">
+        <div class=" w-full flex justify-center">
+          <img src="rating (1).png" alt="">
+        </div>
+        <p>Customer Satisfaction</p>
+        <h2 class="text-[#20B15A] text-5xl font-bold">20 %</h2>
+      </div>
+      <div class="grid-cols-4 mt-10 rounded-2xl p-5 hover:shadow-lg">
+        <div class="w-full flex justify-center">
+          <img src="raise.png" alt="">
+        </div>
+        <p>Raised by Clients</p>
+        <h2 class="text-[#20B15A] text-5xl font-bold">$ 10M</h2>
+      </div>
+      <div class="grid-cols-4 mt-10 rounded-2xl p-5 hover:shadow-lg">
+        <div class="w-full flex justify-center ">
+          <img src="timeline 1.png" alt="">
+        </div>
+        <p>Years in Business</p>
+        <h2 class="text-[#20B15A] text-5xl font-bold">2 yrs</h2>
+      </div>
+    </div>
+  </section>
+  <section class="our-portfolio-section">
+    <div class="mt-10 px-16 ">
+      <p class="text-[#20B15A] mt-16">Our Portfolio</p>
+      <h2 class="text-3xl font-bold mt-5">We provide the Perfect Solution <br> to your business growth</h2>
+      <div class="grid md:grid-cols-2 mt-16">
+        <div class="flex justify-center w-5/6 mt-10 hover:border-2">
+          <div class="justify-center  ">
+            <img src="thedigital.png" alt="">
+            <h2 class="font-bold h-10 mt-8">Digital Marketing Agency Website</h2>
+            <p class="mt-3.5">This is a website for a client who want to achieve their goals and meet their <br> users
+              needs while also
+              increasing their reach. Accross all platforms. This is a <br> website rebrand</p>
+
+          </div>
+        </div>
+        <div class="flex justify-center w-7/15 mt-10 hover:border-2">
+          <div class="justify-center ">
+            <img src="planyourtask.png" alt="">
+            <h2 class="font-bold h-10 mt-8">Digital Marketing Agency Website</h2>
+            <p class="mt-3.5">This is a website for a client who want to achieve their goals and meet their <br> users
+              needs while also
+              increasing their reach. Accross all platforms. This is a <br> website rebrand</p>
+
+          </div>
+        </div>
+        <div class="flex justify-center w-5/6 mt-10 hover:border-2">
+          <div class="justify-center ">
+            <img src="enjoyyourlive.png" alt="">
+            <h2 class="font-bold h-10 mt-8">Digital Marketing Agency Website</h2>
+            <p class="mt-3.5">This is a website for a client who want to achieve their goals and meet their <br> users
+              needs while also
+              increasing their reach. Accross all platforms. This is a <br> website rebrand</p>
+
+          </div>
+        </div>
+        <div class="flex justify-center w-7/15 mt-10 hover:border-2">
+          <div class="justify-center  ">
+            <img src="digitalmarketing.png" alt="">
+            <h2 class="font-bold h-10 mt-8">Digital Marketing Agency Website</h2>
+            <p class="mt-3.5">This is a website for a client who want to achieve their goals and meet their <br> users
+              needs while also
+              increasing their reach. Accross all platforms. This is a <br> website rebrand</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials-section mt-5">
+    <div class="grid-cols-2 px-16 flex justify-between md:flex-row flex-col items-center">
+      <div>
+        <p class="text-[#20B15A] mt-16">TESTIMONIALS</p>
+        <h2 class="font-bold mt-5">See what our customer <br> say about us</h2>
+      </div>
+      <div class="flex gap-5">
+        <i
+          class="fa-solid fa-angle-left h-12 w-12 rounded-full flex justify-center items-center border-2 hover:bg-[#D7F5DC]"></i>
+        <i
+          class="fa-solid fa-angle-right h-12 w-12 rounded-full flex justify-center items-center border-2 bg-[#D7F5DC]"></i>
+      </div>
+  </section>
+  <section class="card-section">
+    <div class="md:grid-cols-3 grid p-16 gap-4 sm:grid-cols-2">
+      <div class=" shadow-lg rounded-2xl p-10 hover:shadow-slate-500 ">
+        <p>Thank You for your service. I am very pleased <br> with the result. I have seen exponencial growth <br> in my
+          business and its all thanks to your <br> amazing service</p>
+        <div class="flex mt-5">
+          <div> <img src="Mask Group.png" alt=""></div>
+          <div>
+            <h2 class="font-bold">Emily Stones </h2>
+            <p>CEO, Marketing Guru</p>
+          </div>
+        </div>
+      </div>
+      <div class=" shadow-lg rounded-2xl p-10  hover:shadow-slate-500">
+        <p>Thank You for your service. I am very pleased <br> with the result. I have seen exponencial growth <br> in my
+          business and its all thanks to your <br> amazing service</p>
+        <div class="flex mt-5">
+          <div> <img src="Mask Group.png" alt=""></div>
+          <div>
+            <h2 class="font-bold">Emily Stones </h2>
+            <p>CEO, Marketing Guru</p>
+          </div>
+        </div>
+      </div>
+      <div class="shadow-lg rounded-2xl p-10  hover:shadow-slate-500">
+        <p>Thank You for your service. I am very pleased <br> with the result. I have seen exponencial growth <br> in my
+          business and its all thanks to your <br> amazing service</p>
+        <div class="flex mt-5">
+          <div><img src="Mask Group.png" alt=""></div>
+          <div>
+            <h2 class="font-bold">Emily Stones </h2>
+            <p>CEO, Marketing Guru</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="subscribe-section  mt-5">
+    <div class="text-center mt-20">
+      <a href="" class="text-green-600 hover:text-red-600">SUBSCRIBE</a>
+      <h2 class="font-bold text-2xl mt-6">Subscribe to get the latest <br> news about us</h2>
+      <p class="text-gray-600">Please drop your email below to get daily update about what we do</p>
+      <div>
+
+        <form class="max-w-md mx-auto mt-10">
+          <label for="default-search"
+            class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+          <div class="relative">
+            <input type="search" id="default-search"
+              class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500 dark:bg-white dark:border-black dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Enter Your Email Adress" required />
+            <button type="submit"
+              class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-600  dark:focus:ring-blue-800">Subscribe</button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+  <section class="footer-section bg-[#00CA72] py-5 mt-24">
+    <div class="lg:grid-cols-3 grid  sm:grid-cols-2 px-16 justify-around text-justify mt-14">
+      <div class=" ">
+        <h2 class="font-bold text-5xl pb-5">WEBLOGO</h2>
+        <p class="font-semibold">Some footer text about the <br> Agency. Just a little description to <br> help people
+          understand you better</p>
+        <div class="leading-[3rem] pt-3">
+          <a href="#"><i
+              class="fa-brands fa-facebook p-2 bg-[#20B15A] rounded-full  text-white hover:text-blue-600 hover:bg-white"></i></a>
+          <a href="#"><i
+              class="fa-brands fa-twitter p-2 bg-[#20B15A] rounded-full  text-white hover:text-blue-600 hover:bg-white"></i></a>
+          <a href="#"><i
+              class="fa-brands fa-linkedin p-2 bg-[#20B15A] rounded-full  text-white hover:text-blue-800 hover:bg-white"></i></a>
+          <a href="#"><i
+              class="fa-brands fa-instagram p-2 bg-[#20B15A] rounded-full text-white hover:text-red-500 hover:bg-white "></i></a>
+        </div>
+        <p class="leading-[8rem] font-semibold">Copyright Design Agency 2022</p>
+
+      </div>
+      <div class="">
+        <h2 class="text-sm font-semibold">Quick Links</h2>
+        <ul class="leading-[3rem]">
+          <li class="hover:underline font-semibold"><a href="#">Services </a></li>
+          <li class="hover:underline font-semibold"><a href="#">Portfolio </a></li>
+          <li class="hover:underline font-semibold"> <a href="#">About Us </a></li>
+          <li class="hover:underline font-semibold"> <a href="#">Contact Us </a></li>
+        </ul>
+      </div>
+      <div class=" ">
+        <h2 class="text-sm leading-[3rem] font-semibold">Address</h2>
+        <p class="font-semibold">Design Agency Head Office. <br> Airport Road <br> United Arab Emirate</p>
+
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
